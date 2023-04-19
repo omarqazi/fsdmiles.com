@@ -1,6 +1,6 @@
-const startMiles = 130000000.0;
-const startDateString = "2023-04-06T20:00:00Z";
-const milesPerDay = 1000000.0;
+const startMiles = 150000000.0;
+const startDateString = "2023-04-19T20:00:00Z";
+const milesPerDay = 1538461.0;
 
 function getMilesPerSecond(milesPerDay) {
   const secondsInADay = 24 * 60 * 60;
