@@ -1,3 +1,15 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --text-color: #ffffff;
+  }
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -7,7 +19,8 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0 1rem;
-    background-color: #f0f0f0;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 h1 {
